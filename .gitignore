@@ -1,60 +1,51 @@
 ```
-# Dependencies
-node_modules/
-
-# Build outputs
-dist/
-build/
-*.js
-*.ts
-
-# Logs
+# Logs and temp files
 *.log
 
 # Environment
 .env
 .env.local
-*.env.*
+.env.*
 
 # Editors
 .vscode/
 .idea/
 
-# Python (if any Python files exist)
+# Dependencies
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
+*.so
+*.egg-info/
+.eggs/
+.venv/
+venv/
+.env/
+pip-log.txt
+pip-selfcheck.json
+
+# Build artifacts
+build/
+dist/
+*.tar.gz
+*.whl
+*.egg
 
 # Coverage
+.coverage
 coverage/
 htmlcov/
-.coverage
+.coverage.*
+.nox/
+.tox/
 
-# Temporary files
-*.tmp
-*.swp
-*.swo
-
-# OS
+# OS generated files
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
 Thumbs.db
-
-# Testing
-.mypy_cache/
-.pytest_cache/
-.nyc_output/
-coverage/
-
-# Node.js
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
-# Vite
-!.vite/
-vite/dist/
-
-# TypeScript
-*.tsbuildinfo
 ```
