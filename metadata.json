@@ -1,0 +1,7 @@
+{
+  "name": "PAVL - Pavlovskaya Mobile App",
+  "description": "Unified mobile service for Pavlovskaya village residents: Taxi aggregator, Utility monitoring, and Events.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
